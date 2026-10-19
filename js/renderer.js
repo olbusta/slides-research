@@ -71,7 +71,7 @@
       <p class="step-label" style="color:rgba(255,255,255,0.5);letter-spacing:0.12em">${esc(slide.eyebrow)}</p>
       <h1 style="font-size:3rem;line-height:1.1;margin-top:0.5rem">${nl(slide.title)}</h1>
       <div class="divider divider--white" style="margin-top:1rem"></div>
-      <p style="color:rgba(255,255,255,0.55);font-size:1rem;margin-top:1rem">${esc(slide.body)}</p>`
+      ${slide.body ? `<p style="color:rgba(255,255,255,0.55);font-size:1rem;margin-top:1rem">${esc(slide.body)}</p>` : ""}`
       + (slide.contact ? `<p style="color:rgba(255,255,255,0.55);font-size:0.9rem;margin-top:2rem">Contact <a href="mailto:${esc(slide.contact)}" style="color:inherit;text-decoration:underline">${esc(slide.contact)}</a></p>` : "");
     return slide.video
       ? videoBg + `<div style="position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center">${content}</div>`

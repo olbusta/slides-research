@@ -15,8 +15,6 @@ The proposed first step is to instrument Order Action as a focused research case
 
 TAKING BACK CONTROL
 
-Engineering & Product Leadership Review
-
 ## The Data Clarity Problem
 
 BACKGROUND
