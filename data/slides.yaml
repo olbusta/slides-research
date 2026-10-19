@@ -151,7 +151,7 @@ slides:
       - number: 2
         text: "Cap at 20k clicks for now, exportable as JSON for easy access"
       - number: 3
-        text: "UX analyses the data, identifies patterns, feeds findings into the roadmap"
+        text: "We analyse the data, identify patterns, feed findings into the roadmap"
 
   - id: 9
     type: content
@@ -179,3 +179,4 @@ slides:
     eyebrow: "OPEN DISCUSSION"
     title: "What do you think?"
     body: "How do you see this from your perspective? What would you add, challenge, or do differently?"
+    contact: "olof.bustamante@ingka.ikea.com"
